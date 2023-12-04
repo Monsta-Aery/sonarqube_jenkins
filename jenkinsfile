@@ -2,7 +2,7 @@
         agent none
         stages {
          
-          stage("build & sonarqube") {
+          stage("build & sonarqube Analysis") {
             agent any
             steps {
               withSonarQubeEnv('SonarQube_server') {
